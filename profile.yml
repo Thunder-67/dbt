@@ -1,0 +1,14 @@
+default:
+    target: PROD
+    outputs:
+      dev:
+        type: snowflake
+        account: vetxnmg-zg93609
+        user: thunder
+        password: Thunder@67
+        role: ACCOUNTADMIN
+        database: "{{ var('snowflake_database') }}"
+        warehouse: COMPUTE_WH
+        schema: "{{ var('snowflake_schema') }}"
+        threads: 1
+        client_session_keep_alive: False
