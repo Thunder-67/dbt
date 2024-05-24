@@ -1,7 +1,18 @@
 default:
-    target: dev
+    
     outputs:
       dev:
+        type: snowflake
+        account: vetxnmg-zg93609
+        user: thunder
+        password: Thunder@67
+        role: ACCOUNTADMIN
+        database: BRONZE
+        warehouse: COMPUTE_WH
+        schema: POS
+        threads: 4
+        client_session_keep_alive: False
+      PROD:
         type: snowflake
         account: vetxnmg-zg93609
         user: thunder
@@ -10,5 +21,6 @@ default:
         database: SILVER
         warehouse: COMPUTE_WH
         schema: TRANSFORMED_POS
-        threads: 1
+        threads: 4
         client_session_keep_alive: False
+    target: dev
