@@ -1,0 +1,25 @@
+fault:
+  target: default
+    outputs:
+      default:
+        type: snowflake
+        account: vetxnmg-zg93609
+        user: thunder
+        password: Thunder@67
+        role: DBT_ROLE
+        database: BRONZE
+        warehouse: COMPUTE_WH
+        schema: POS
+      
+      prod:
+        type: snowflake
+        account: vetxnmg-zg93609
+        user: thunder
+        password: Thunder@67
+        role: DBT_ROLE
+        database: SILVER
+        warehouse: COMPUTE_WH
+        schema: TRANSFORMED_POS
+      
+        
+    
