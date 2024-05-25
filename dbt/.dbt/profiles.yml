@@ -6,7 +6,7 @@ my_project_profile:
       account: vetxnmg-zg93609
       user: thunder
       password: Thunder@67
-      role: DBT_ROLE
+      role: ACCOUNTADMIN
       database: BRONZE
       warehouse: COMPUTE_WH
       schema: POS   
@@ -15,7 +15,7 @@ my_project_profile:
       account: vetxnmg-zg93609
       user: thunder
       password: Thunder@67
-      role: DBT_ROLE
+      role: ACCOUNTADMIN
       database: SILVER
       warehouse: COMPUTE_WH
       schema: TRANSFORMED_POS
