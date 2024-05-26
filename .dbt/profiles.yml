@@ -1,4 +1,4 @@
-my_project:
+my_new_project:
   target: dev
   outputs:
     dev:
