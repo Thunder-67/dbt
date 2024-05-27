@@ -1,0 +1,21 @@
+my_new_project:
+  target: default
+  outputs:
+    default:
+      type: snowflake
+      account: vetxmg-zg93609
+      user: thunder
+      password: Thunder@67
+      role: ACCOUNTADMIN
+      database: BRONZE
+      warehouse: COMPUTE_WH
+      schema: POS
+    prod:
+      type: snowflake
+      account: vetxmg-zg93609
+      user: thunder
+      password: Thunder@67
+      role: ACCOUNTADMIN
+      database: PRODUCTION
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
